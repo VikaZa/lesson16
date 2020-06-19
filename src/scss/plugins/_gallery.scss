@@ -1,0 +1,23 @@
+.gallery {
+
+  &__wrapper {
+    padding: 7px;
+    background: $white;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next{
+    position: static;
+
+    &:after {
+      display: none;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-top: 35px;
+  }
+}
